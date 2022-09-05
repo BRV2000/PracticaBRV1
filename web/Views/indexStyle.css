@@ -1,0 +1,40 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 4 sep. 2022, 17:56:01
+    Author     : branr
+*/
+
+.header{
+ display: flex;
+ justify-content: center;
+ background-color: rgb(18, 31, 61);
+ 
+}
+.color-fondo{
+    background-color: rgb(18, 31, 61);
+}
+
+nav{
+    background-color: rgba(223, 125, 27, 1);
+    margin: 3rem 0 8rem 0 ; /*los 0 que aparecen son para completar la barra*/
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+a{
+    text-decoration: none;
+}
+nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    color: rgba(233, 232, 224, 1);
+    text-transform: uppercase;
+}
+nav a:hover{
+    color:rgba(255, 255, 255, 1);
+}
